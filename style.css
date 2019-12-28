@@ -1,4 +1,51 @@
+body {
+  background-color: #34495e;
+}
+
 .highlight {
-  color: yellow;
+  color: #e74c3c;
   font-size: 50px;
+}
+
+#navDiv {
+  height: 10vh;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#textInput,
+#highlightVowelsButton {
+  width: 40%;
+  height: 40%;
+  border-radius: 5px;
+  border: none;
+}
+
+#textInput {
+  /* margin-right: 5%; */
+  height: 35%;
+  background-color: #95a5a6;
+}
+
+#highlightVowelsButton {
+  background-color: #0abde3;
+  transition: 0.3s;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 17px;
+  /* margin: 2%; */
+}
+
+#highlightVowelsButton:hover {
+  background-color: #2ecc71;
+}
+
+/* Div with text */
+#highlightedText {
+  color: #ecf0f1;
+  font-size: 40px;
+  margin: 3%;
 }
