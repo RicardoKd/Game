@@ -36,7 +36,6 @@ body {
   text-transform: uppercase;
   text-align: center;
   font-size: 17px;
-  /* margin: 2%; */
 }
 
 #highlightVowelsButton:hover {
@@ -48,4 +47,5 @@ body {
   color: #ecf0f1;
   font-size: 40px;
   margin: 3%;
+  font-weight: bold;
 }
